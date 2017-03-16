@@ -1,0 +1,8 @@
+- Class: meta
+  Course: yaml template
+  Lesson: into lesson
+  Author: author name
+  Organization: organization name
+  Version: 1.0
+
+  

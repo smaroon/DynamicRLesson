@@ -1,0 +1,20 @@
+- Class: meta
+  Course: Dynamic YML
+  Lesson: Test
+  Author: Sarah Maroon
+  Type: Standard
+  Organization: Eastern Connecticut State University
+  Version: Draft
+  
+- Class: text
+  Output: Testing the yaml template
+  
+- Class: cmd_question
+  Output: Create a vector named numbers that stores the numbers _random_1_10_50 , _random_2_51_100 , _random_3_101_120 and _random_4_130_140
+  CorrectAnswer: numbers <- c(_random1, _random2, _random3, _random4)
+  AnswerTests: omnitest(correctExpr='numbers <- c(_random1, _random2, _random3, _random4)')
+
+- Class: cmd_question
+  Output: Add the numbers  _random_1_10_50 , _random_2_51_100 together and store in a variable called add.
+  CorrectAnswer: add <- _random1 + _random2
+  AnswerTests: omnitest(correctExpr='add <- _random1 + _random2')

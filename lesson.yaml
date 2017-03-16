@@ -1,0 +1,20 @@
+- Class: meta
+  Course: Independent Study
+  Lesson: Dynamically creating a yaml file
+  Author: Sarah Maroon
+  Type: Standard
+  Organization: Eastern Connecticut State University
+  Version: Draft
+  
+- Class: text
+  Output: Testing the yaml template
+  
+- Class: cmd_question
+  Output: Create a vector named numbers that stores the numbers  32  , 96  , 109  and 138 
+  CorrectAnswer: numbers <- c(32, 96, 109, 138)
+  AnswerTests: omnitest(correctExpr='numbers <- c(32, 96, 109, 138)')
+
+- Class: cmd_question
+  Output: Add the numbers   30  , 90  together and store in a variable called add.
+  CorrectAnswer: add <- 30 + 90
+  AnswerTests: omnitest(correctExpr='add <- 30 + 90')
